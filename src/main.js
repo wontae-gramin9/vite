@@ -1,7 +1,2 @@
-import "./a.js";
-import styles from "./assets/style.css?inline";
-
-console.log("styles:", styles);
-const styleEl = document.createElement("style");
-styleEl.innerText = styles;
-document.querySelector("head").append(styleEl);
+import "./assets/01.css";
+import "./assets/02.css";
